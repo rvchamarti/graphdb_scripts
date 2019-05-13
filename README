@@ -1,1 +1,18 @@
 This repository is used to create examples and scripts to create/visualize graphdb using neo4j.
+
+
+
+#### Installing neo4j container
+
+#### Running neo4j containers
+
+
+
+#### Installing popoto visualization
+
+
+
+### Installing simple nodejs http server
+
+npm install http-server -g
+
