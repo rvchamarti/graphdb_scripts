@@ -13,6 +13,37 @@ This repository is used to create examples and scripts to create/visualize graph
 
 
 ### Installing simple nodejs http server
-
 npm install http-server -g
+
+
+
+Covid DRUG-RESEARCH Paper model on Neo4j:
+
+Based on Covid Research paper data shared on kaggle.com, this script will build DRUG referred in Research paper model on neo4j. 
+This is two node relationship  (DRUG -[REFERRED_IN count:]-> PAPER) model.  The script parses through Medical research paper folder
+(json files) and using spacy NLP module and med7 (EIR model for drugs).  
+
+This script heavily inspired by work done by many people at Kaggle.
+
+Before you run the script:
+ - prepare neo4j env (I preferred neo4j container)
+ # docker pull neo4j
+ 
+ run neo4j
+ # docker run -d --publish=7474:7474 --publish=7687:7687 neo4j
+ 
+ - prepare python env
+
+# Jupyter Pyspark notebook
+The easiest way is to build with Jupyter PySpark notebook
+
+#docker pull jupyter/pyspark-notebook
+
+
+
+# On Notebook terminal
+# pip install spacy
+
+# Install med7 library
+
 
