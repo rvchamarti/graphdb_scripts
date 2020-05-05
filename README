@@ -40,10 +40,20 @@ The easiest way is to build with Jupyter PySpark notebook
 #docker pull jupyter/pyspark-notebook
 
 
-
 # On Notebook terminal
 # pip install spacy
 
 # Install med7 library
+
+# In the script
+Change the neo4j IP address
+ Either set environment NEO4J_PASSWORD or set variable
+ 
+ 
+#  execute the script
+
+You can watch neo4j output
+
+
 
 
